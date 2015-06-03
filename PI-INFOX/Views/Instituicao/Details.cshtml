@@ -1,0 +1,36 @@
+﻿@model PI_INFOX.Models.Basicas.basInstituicao
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>basInstituicao</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.matriculaInstituicaoID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.matriculaInstituicaoID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.senha)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.senha)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nome)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

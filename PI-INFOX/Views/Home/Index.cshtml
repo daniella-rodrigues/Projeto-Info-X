@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Bem Vindos, ao portal InfoX! </h2>
+<div id="topo">
+    <div id="login">
+        <ul>
+            <li>@Html.ActionLink("Login","Login","home") </li>
+            <li>@Html.ActionLink("Cadastrar","Index","usuario")</li>
+        </ul>
+    </div>
+</div>
+<div id="menu">
+    <ul>
+        <li>@Html.ActionLink("Home","Index","home")</li>
+        <li>@Html.ActionLink("Arquivos","Index","material")</li>
+        <li>@Html.ActionLink("Forum","Index","forum")</li>
+        <li>@Html.ActionLink("Aviso","Index","aviso")</li>
+        <li>@Html.ActionLink("Vagas","Index","vagas")</li>
+        <li>@Html.ActionLink("Sobre","Sobre","home")</li>
+        <li>@Html.ActionLink("Contato","Create","contato")</li>
+    </ul>
+</div>
+
+@*filtro das noticias Forum
+<div id="noticiasForum">
+    <ul>
+           @foreach (var item in Model)
+        {
+            <li>
+                @Html.ActionLink(item.Titulo, "MostraNoticiaForum", "Home", new
+                    {
+                        @forumId = item.ForumID,
+                        @disciplina = item.DisciplinaID.ToLower(),
+                        @titulo = item.Titulo.ToLower()
+                    }, null)
+                <em>@Html.DisplayFor(modelItem => item.DisciplinaID)</em>
+                <b>@Html.DisplayFor(modelItem => item.dataHoraCriacao)</b>
+            </li>
+        }
+    </ul>
+</div>
+<div>
+    @Html.ActionLink("Todas as Noticias do Forum", "TodasAsNoticiasForum", "Home")
+</div>*@ 
