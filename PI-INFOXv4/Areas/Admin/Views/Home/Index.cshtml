@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="topo">
+    <div id="login">
+        <ul>
+            <li>@Html.ActionLink("Logout","Index","home") </li>
+        </ul>
+    </div>
+</div>
+
+<div id="menu">
+    <ul>
+        <li>@Html.ActionLink("Arquivos","Index","material")</li>
+        <li>@Html.ActionLink("Forum","Index","forum")</li>
+        <li>@Html.ActionLink("Aviso","Index","aviso")</li>
+        <li>@Html.ActionLink("Vagas","Index","vagas")</li>
+        <li>@Html.ActionLink("Disciplina","Index","disciplina")</li>
+        <li>@Html.ActionLink("Usuario","Index","usuario")</li>
+    </ul>
+</div>

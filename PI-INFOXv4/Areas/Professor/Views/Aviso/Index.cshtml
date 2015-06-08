@@ -1,0 +1,54 @@
+﻿@model IEnumerable<PI_INFOX.Models.Basicas.basAviso>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Bem vindo ao avisos</h2>
+
+<div>
+    <ul>
+        <li>@Html.ActionLink("Criar Novo", "Create")</li>
+    </ul>
+</div>
+<div>
+    <ul>
+        <li>@Html.ActionLink("Home","Index","home")</li>
+    </ul>
+</div>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AvisoID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nomeAviso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.horaPublicacao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Disciplinas.nomeDisciplina)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AvisoID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nomeAviso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.horaPublicacao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Disciplinas.nomeDisciplina)
+        </td>
+        
+    </tr>
+}
+
+</table>

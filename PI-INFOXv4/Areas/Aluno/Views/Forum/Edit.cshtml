@@ -1,0 +1,84 @@
+﻿@model PI_INFOX.Models.Basicas.basForum
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>basForum</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ForumID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ForumID)
+            @Html.ValidationMessageFor(model => model.ForumID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.titulo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.titulo)
+            @Html.ValidationMessageFor(model => model.titulo)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.dataHoraCriacao)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.dataHoraCriacao)
+            @Html.ValidationMessageFor(model => model.dataHoraCriacao)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.mensagem)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.mensagem)
+            @Html.ValidationMessageFor(model => model.mensagem)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.mensagemResposta)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.mensagemResposta)
+            @Html.ValidationMessageFor(model => model.mensagemResposta)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DisciplinaID, "Disciplina")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("DisciplinaID", String.Empty)
+            @Html.ValidationMessageFor(model => model.DisciplinaID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.matricula)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.matricula)
+            @Html.ValidationMessageFor(model => model.matricula)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

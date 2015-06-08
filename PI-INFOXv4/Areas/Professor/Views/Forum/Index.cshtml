@@ -1,0 +1,70 @@
+﻿@model IEnumerable<PI_INFOX.Models.Basicas.basForum>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Bem Vindo ao Forum Info X</h2>
+<div>
+    <ul>
+        <li> @Html.ActionLink("Criar Novo", "Create")</li>
+    </ul>
+</div>
+<div>
+    <ul>
+        <li>@Html.ActionLink("Home","Index","home")</li>
+    </ul>
+</div>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ForumID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dataHoraCriacao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mensagem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mensagemResposta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Disciplina.nomeDisciplina)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.matricula)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ForumID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dataHoraCriacao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mensagem)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mensagemResposta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Disciplina.nomeDisciplina)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.matricula)
+        </td>
+      </tr>
+}
+
+</table>
