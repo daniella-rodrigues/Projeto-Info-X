@@ -1,0 +1,80 @@
+﻿@model PI_INFOX.Models.Basicas.basVaga_Estagio_Emprego
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo @Session["nomeUsuarioLogado"].ToString() </h3>
+    </text>
+}
+<h3>Você realmente deseja deletar?</h3>
+<fieldset>
+    <legend>basVaga_Estagio_Emprego</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.VagaID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.VagaID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nomeVaga)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nomeVaga)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.cargo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.cargo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.horarioEntrada)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.horarioEntrada)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.horarioSaida)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.horarioSaida)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.salario)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.salario)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nomeEmpresa)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nomeEmpresa)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Instituicao.login)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Instituicao.login)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Volta", "Index")
+    </p>
+}

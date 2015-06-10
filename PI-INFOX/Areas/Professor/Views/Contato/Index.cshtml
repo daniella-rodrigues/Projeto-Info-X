@@ -1,0 +1,70 @@
+﻿@model IEnumerable<PI_INFOX.Models.Basicas.basContato>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo @Session["nomeUsuarioLogado"].ToString() </h3>
+    </text>
+}
+
+<div>
+    <ul>
+        <li>@Html.ActionLink("Criar Novo", "Create")</li>
+    </ul>
+</div>
+<div>
+    <ul>
+        <li>@Html.ActionLink("Home","Index","home")</li>
+    </ul>
+</div>
+@*<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ContatoID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Observacao)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContatoID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Observacao)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>*@

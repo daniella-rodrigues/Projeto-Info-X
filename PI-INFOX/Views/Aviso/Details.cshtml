@@ -1,0 +1,43 @@
+﻿@model PI_INFOX.Models.Basicas.basAviso
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Aviso</h2>
+
+<fieldset>
+    <legend>basAviso</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.AvisoID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AvisoID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nomeAviso)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nomeAviso)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.horaPublicacao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.horaPublicacao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Disciplinas.nomeDisciplina)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Disciplinas.nomeDisciplina)
+    </div>
+</fieldset>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) *@|
+    @Html.ActionLink("Volta", "Index")
+</p>

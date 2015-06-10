@@ -1,0 +1,49 @@
+﻿@model PI_INFOX.Models.Basicas.basAviso
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo @Session["nomeUsuarioLogado"].ToString() </h3>
+    </text>
+}
+
+<fieldset>
+    <legend>Aviso</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.AvisoID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AvisoID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nomeAviso)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nomeAviso)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.horaPublicacao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.horaPublicacao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Disciplinas.nomeDisciplina)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Disciplinas.nomeDisciplina)
+    </div>
+</fieldset>
+<p>
+   @* @Html.ActionLink("Edit", "Edit", new {  id=Model.AvisoID }) |*@
+    @Html.ActionLink("Volta", "Index")
+</p>
