@@ -1,0 +1,50 @@
+﻿@model PI_INFOX.Models.Basicas.basMaterial
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>basMaterial</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MaterialID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MaterialID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Descricao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Descricao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.linkDiretorio)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.linkDiretorio)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Disciplinas.nomeDisciplina)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Disciplinas.nomeDisciplina)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.matricula)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.matricula)
+    </div>
+</fieldset>
+<p>
+@*    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |*@
+    @Html.ActionLink("Back to List", "Index")
+</p>

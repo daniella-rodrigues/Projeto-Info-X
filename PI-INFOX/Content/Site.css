@@ -1,0 +1,117 @@
+﻿body {
+   
+}
+#tudo{
+  font-size: .85em;
+  font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+  background-image: url("http://img.elo7.com.br/product/original/C5E80C/papel-adesivo-contact-aco-esc-45cm-x-10m-aco.jpg");
+  background-repeat:no-repeat;
+  background-size:100%;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+#login{
+  margin-left: 700px;
+  margin-top:20px;
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  padding-right: 10px;
+}
+
+#header
+{
+  width: 780px;
+  height: 640px;
+  margin-top: 50px;
+  margin-left: 140px;
+  background-color:white ;
+}
+#header #corpo
+{
+  float:left;
+  width:300px;
+  height:200px;
+}
+#header #posts
+{
+  float:right;
+  text-align:justify;
+  width:40%;
+  margin-top:70px;
+  margin-right:-290px;
+  line-height:20px;
+}
+#header h1
+{
+  float:right;
+  margin-right: 40px;
+  font-size:28px;
+}
+#header h2
+{
+  float:right;
+  margin-top:200px;
+  margin-right: -230px;
+  font-size:28px;
+}
+#footer
+{
+  text-align:center;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}

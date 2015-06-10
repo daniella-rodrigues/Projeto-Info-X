@@ -1,0 +1,35 @@
+﻿@model PI_INFOX.Models.Basicas.basDisciplina
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo ao detalhes @Session["nomeUsuarioLogado"].ToString() </h3>
+    </text>
+}
+
+<fieldset>
+    <legend>Disciplina</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DisciplinaID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DisciplinaID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nomeDisciplina)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nomeDisciplina)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new {  id=Model.DisciplinaID }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>
