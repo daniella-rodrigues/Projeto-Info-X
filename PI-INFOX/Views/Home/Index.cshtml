@@ -1,0 +1,114 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<div class="img">
+    <img src="http://professoralucianafalcao.com.br/wp-content/uploads/banner1.png"/>
+</div>
+<h4>Destaques(avisos/vagas/arquivos)</h4>
+<hr />
+<div class="pull-right-postagem">
+    <h4>Postagens Recentes</h4>
+    <hr />
+    <ul>
+        <li>@Html.ActionLink("Novo Comentario", "index", "forum")</li>
+        <li>@Html.ActionLink("Novo Texto", "index", "forum")</li>
+        <li>@Html.ActionLink("Comentario novo", "index", "forum")</li>
+        <li>@Html.ActionLink("Qualquer Coisa", "index", "forum")</li>
+        <li>@Html.ActionLink("Muito estranho", "index", "forum")</li>
+    </ul>
+</div>
+<div class="destaque">
+    <ul>
+        <li>
+            <h6>
+                Pelo sport Tudo!
+            </h6>
+            <p>14 de Abril de 2015</p>
+            <h7>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam posuere ante at erat facilisis iaculis.
+                Praesent pellentesque enim ut nunc tempor aliquam ut sagittis risus. Vestibulum euismod nunc purus, in suscipit nunc tincidunt vitae.
+                Sed vestibulum sodales mauris, et euismod risus scelerisque in. Sed imperdiet nunc id aliquam aliquet.
+                Vestibulum malesuada tellus felis, eu malesuada felis venenatis vel.
+                Sed urna leo, imperdiet et dolor in, laoreet mattis ligula.
+            </h7>
+            <a href="">Mais</a>
+         </li>
+        <br>
+        <hr>
+        <li>
+            <h6>
+                O campeão voltou!
+            </h6>
+            <p>14 de Abril de 2015</p>
+            <h7>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam posuere ante at erat facilisis iaculis.
+                Praesent pellentesque enim ut nunc tempor aliquam ut sagittis risus. Vestibulum euismod nunc purus, in suscipit nunc tincidunt vitae.
+                Sed vestibulum sodales mauris, et euismod risus scelerisque in. Sed imperdiet nunc id aliquam aliquet.
+                Vestibulum malesuada tellus felis, eu malesuada felis venenatis vel.
+                Sed urna leo, imperdiet et dolor in, laoreet mattis ligula.
+            </h7>
+            <a href="">Mais</a>
+        </li>
+        <br>
+        <hr>
+        <li>
+            <h6>
+                Sport, papai do nordeste
+            </h6>
+            <p>14 de Abril de 2015</p>
+            <h7>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam posuere ante at erat facilisis iaculis.
+                Praesent pellentesque enim ut nunc tempor aliquam ut sagittis risus. Vestibulum euismod nunc purus, in suscipit nunc tincidunt vitae.
+                Sed vestibulum sodales mauris, et euismod risus scelerisque in. Sed imperdiet nunc id aliquam aliquet.
+                Vestibulum malesuada tellus felis, eu malesuada felis venenatis vel.
+                Sed urna leo, imperdiet et dolor in, laoreet mattis ligula.
+            </h7>
+            <a href="">Mais</a>
+        </li>
+    </ul>
+</div>
+
+@*<div id="topo">
+    <div id="login">
+        <ul>
+            <li>@Html.ActionLink("Login","Login","home") </li>
+            <li>@Html.ActionLink("Cadastrar","Index","usuario")</li>
+        </ul>
+    </div>
+</div>
+<div id="menu">
+    <ul>
+        <li>@Html.ActionLink("Home","Index","home")</li>
+        <li>@Html.ActionLink("Arquivos","Index","material")</li>
+        <li>@Html.ActionLink("Forum","Index","forum")</li>
+        <li>@Html.ActionLink("Aviso","Index","aviso")</li>
+        <li>@Html.ActionLink("Vagas","Index","vagas")</li>
+        <li>@Html.ActionLink("Sobre","Sobre","home")</li>
+        <li>@Html.ActionLink("Contato","Create","contato")</li>
+    </ul>
+</div>*@
+
+@*filtro das noticias Forum
+<div id="noticiasForum">
+    <ul>
+           @foreach (var item in Model)
+        {
+            <li>
+                @Html.ActionLink(item.Titulo, "MostraNoticiaForum", "Home", new
+                    {
+                        @forumId = item.ForumID,
+                        @disciplina = item.DisciplinaID.ToLower(),
+                        @titulo = item.Titulo.ToLower()
+                    }, null)
+                <em>@Html.DisplayFor(modelItem => item.DisciplinaID)</em>
+                <b>@Html.DisplayFor(modelItem => item.dataHoraCriacao)</b>
+            </li>
+        }
+    </ul>
+</div>
+<div>
+    @Html.ActionLink("Todas as Noticias do Forum", "TodasAsNoticiasForum", "Home")
+</div>*@ 
