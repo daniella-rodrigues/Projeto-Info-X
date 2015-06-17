@@ -1,0 +1,19 @@
+﻿@model IEnumerable<PI_INFOX.Models.Basicas.basUsuario>
+
+@{
+    ViewBag.Title = "InfoX - Usuario";
+}
+
+<h2>Usuarios, Sejam Bem vindos </h2>
+<hr />
+
+<h5>Novo Aqui? Faça seu Cadastro</h5>
+<p>
+    @Html.ActionLink("Novo Cadastro", "Create")
+</p><br />
+
+ <h5>Já possui cadastro? Faço seu login abaixo</h5>
+<div>
+    
+       @Html.ActionLink("Fazer Login", "Login","home")
+ </div>

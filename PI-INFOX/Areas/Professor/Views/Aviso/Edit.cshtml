@@ -1,0 +1,74 @@
+﻿@model PI_INFOX.Models.Basicas.basAviso
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo @Session["nomeUsuarioLogado"].ToString() </h3>
+    </text>
+}
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Aviso</legend>
+
+@*        <div class="editor-label">
+            @Html.LabelFor(model => model.AvisoID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.AvisoID)
+            @Html.ValidationMessageFor(model => model.AvisoID)
+        </div>*@
+
+       <div class="editor-label">
+            @Html.LabelFor(model => model.titulo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.titulo)
+            @Html.ValidationMessageFor(model => model.titulo)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.messagemAviso)
+        </div>
+        <div class="editor-field">
+            @Html.TextAreaFor(model => model.messagemAviso)
+            @Html.ValidationMessageFor(model => model.messagemAviso)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.dataPublicacao)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.dataPublicacao)
+            @Html.ValidationMessageFor(model => model.dataPublicacao)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DisciplinaID, "Disciplinas")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("DisciplinaID", String.Empty)
+            @Html.ValidationMessageFor(model => model.DisciplinaID)
+        </div>
+
+        <p>
+            <input type="submit" value="Salva" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Volta", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
