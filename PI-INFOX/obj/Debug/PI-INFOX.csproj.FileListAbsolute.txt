@@ -1,0 +1,166 @@
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\PI-INFOX.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\PI-INFOX.pdb
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\Antlr3.Runtime.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\EntityFramework.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\Microsoft.Web.Infrastructure.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\Newtonsoft.Json.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.Mvc.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.Optimization.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.Providers.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.Razor.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Deployment.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Razor.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\WebGrease.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\EntityFramework.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\Newtonsoft.Json.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.Mvc.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.Razor.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Deployment.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Razor.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\obj\Debug\PI-INFOX.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\obj\Debug\PI-INFOX.pdb
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\PI-INFOX.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\PI-INFOX.pdb
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\Antlr3.Runtime.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\EntityFramework.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\Microsoft.Web.Infrastructure.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\Newtonsoft.Json.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.Mvc.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.Optimization.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.Providers.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.Razor.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Deployment.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Razor.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\WebGrease.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\EntityFramework.xml
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\Newtonsoft.Json.xml
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.Mvc.xml
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.Razor.xml
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.xml
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Deployment.xml
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Razor.xml
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\obj\Debug\PI-INFOX.csprojResolveAssemblyReference.cache
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\obj\Debug\PI-INFOX.dll
+G:\Unibratec\C#\Asp\PI\PI-INFOX\PI-INFOX\obj\Debug\PI-INFOX.pdb
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFOX\PI-INFOX\bin\WebActivator.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\PI-INFOX.dll.config
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\PI-INFOX.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\PI-INFOX.pdb
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\Antlr3.Runtime.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\EntityFramework.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\Newtonsoft.Json.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.Mvc.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.Optimization.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.Providers.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.Razor.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Razor.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\WebActivator.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\WebGrease.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\EntityFramework.xml
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\Newtonsoft.Json.xml
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.Mvc.xml
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.Razor.xml
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.xml
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\bin\System.Web.WebPages.Razor.xml
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\obj\Debug\PI-INFOX.csprojResolveAssemblyReference.cache
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\obj\Debug\PI-INFOX.dll
+C:\Users\Henrique\Desktop\PI-INFOX\PI-INFOX\obj\Debug\PI-INFOX.pdb
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\PI-INFOX.dll.config
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\PI-INFOX.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\PI-INFOX.pdb
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\Antlr3.Runtime.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\EntityFramework.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\Newtonsoft.Json.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.Mvc.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.Optimization.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.Providers.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.Razor.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Razor.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\WebActivator.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\WebGrease.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\EntityFramework.xml
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\Newtonsoft.Json.xml
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.Mvc.xml
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.Razor.xml
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.xml
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Razor.xml
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\obj\Debug\PI-INFOX.csprojResolveAssemblyReference.cache
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\obj\Debug\PI-INFOX.dll
+C:\Users\Henrique\Documents\GitHub\Projeto-Info-X\PI-INFO-X\PI-INFOX\obj\Debug\PI-INFOX.pdb
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\PI-INFOX.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\PI-INFOX.pdb
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\Antlr3.Runtime.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\EntityFramework.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\Microsoft.Web.Infrastructure.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\Newtonsoft.Json.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.Mvc.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.Optimization.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.Providers.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.Razor.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Deployment.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Razor.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\WebActivator.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\WebGrease.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\EntityFramework.xml
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\Newtonsoft.Json.xml
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.Mvc.xml
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.Razor.xml
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.xml
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Deployment.xml
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Razor.xml
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\obj\Debug\PI-INFOX.csprojResolveAssemblyReference.cache
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\obj\Debug\PI-INFOX.dll
+G:\Unibratec\C#\Asp\PI\PI-INFO-X\PI-INFOX\obj\Debug\PI-INFOX.pdb
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\PI-INFOX.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\PI-INFOX.pdb
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\Antlr3.Runtime.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\EntityFramework.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\Microsoft.Web.Infrastructure.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\Newtonsoft.Json.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.Mvc.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.Optimization.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.Providers.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.Razor.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Deployment.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Razor.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\WebActivator.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\WebGrease.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\EntityFramework.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\Newtonsoft.Json.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.Mvc.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.Razor.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Deployment.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\System.Web.WebPages.Razor.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\obj\Debug\PI-INFOX.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\obj\Debug\PI-INFOX.pdb
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\PagedList.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\PagedList.Mvc.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\Webdiyer.MvcPager.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\PagedList.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\PagedList.Mvc.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\Webdiyer.MvcPager.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\zh-CHS\Webdiyer.MvcPager.resources.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\zh-CHT\Webdiyer.MvcPager.resources.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\EntityFramework.SqlServer.dll
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\bin\EntityFramework.SqlServer.xml
+F:\Users\Renato E Mari\Documents\Visual Studio 2012\Projects\PI-INFO-X\PI-INFOX\obj\Debug\PI-INFOX.csprojResolveAssemblyReference.cache

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<PI_INFOX.Models.Basicas.basForum>
+
+@{
+    ViewBag.Title = "InfoX - Forum";
+}
+
+<h2>Bem Vindo ao Forum Info X</h2>
+<hr />
+<table class="panel panel-primary">
+   
+        <tr class="panel-heading">
+            <td>
+                @Html.DisplayNameFor(model => model.ForumID)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model => model.titulo)
+            </td>
+
+            <td>
+                @Html.DisplayNameFor(model => model.Disciplina.nomeDisciplina)
+            </td>
+        </tr>
+   
+   
+        @foreach (var item in Model)
+        {
+            <tr class="panel-body">
+                <td>
+                    @Html.DisplayFor(modelItem => item.ForumID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.titulo)
+                </td>
+                <td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Disciplina.nomeDisciplina)
+                </td>
+                <td>
+                    @Html.ActionLink("Veja Mais aqui", "Details", new { id = item.ForumID }, new { @class = "btn btn-info" })
+                </td>
+            </tr>
+        }
+ </table>  

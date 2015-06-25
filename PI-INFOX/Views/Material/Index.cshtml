@@ -1,0 +1,51 @@
+﻿@model IEnumerable<PI_INFOX.Models.Basicas.basMaterial>
+
+@{
+    ViewBag.Title = "InfoX - Material";
+}
+
+<h2>Bem Vindos</h2>
+<hr />
+ <table class="panel panel-primary">
+   
+        <tr class="panel-heading">
+            <td>
+                @Html.DisplayNameFor(model => model.MaterialID)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model => model.titulo)
+            </td>
+             <td>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </td>
+
+            <td>
+                @Html.DisplayNameFor(model => model.Disciplinas.nomeDisciplina)
+            </td>
+        </tr>
+   
+   
+        @foreach (var item in Model)
+        {
+            <tr class="panel-body">
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaterialID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.titulo)
+                </td>
+                 <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+              
+                <td>
+                    @Html.DisplayFor(modelItem => item.Disciplinas.nomeDisciplina)
+                </td>
+                <td>
+                    @Html.ActionLink("Veja Mais aqui", "Details", new { id = item.MaterialID }, new { @class = "btn btn-info" })
+                </td>
+            </tr>
+        }
+   
+
+</table>

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<PI_INFOX.Models.Basicas.basUsuario>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo @Session["nomeUsuarioLogado"].ToString() </h3>
+    </text>
+}
+
+<div>
+    
+        @Html.ActionLink("Criar Novo", "Create",null, new { @class = "btn btn-success" })
+
+</div>
+
+
+<table class="panel panel-primary">
+   
+        <tr class="panel-heading">
+            <td>
+                @Html.DisplayNameFor(model => model.UserID)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model => model.login)
+            </td>
+             <td>
+                @Html.DisplayNameFor(model => model.nome)
+            </td>
+
+            <td>
+                @Html.DisplayNameFor(model => model.Disciplinas.nomeDisciplina)
+            </td>
+        </tr>
+   
+   
+        @foreach (var item in Model)
+        {
+            <tr class="panel-body">
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.login)
+                </td>
+                 <td>
+                    @Html.DisplayFor(modelItem => item.nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Disciplinas.nomeDisciplina)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new {  id=item.UserID } ,new { @class = "btn btn-info" }) 
+                    @Html.ActionLink("Veja Mais aqui", "Details", new { id = item.UserID }, new { @class = "btn btn-info" })
+                    @Html.ActionLink("Delete", "Delete", new { id=item.UserID }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+   
+</table>

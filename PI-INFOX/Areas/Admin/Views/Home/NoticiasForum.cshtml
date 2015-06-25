@@ -1,0 +1,24 @@
+﻿@model PagedList.IPagedList<PI_INFOX.Models.Basicas.basForum>
+
+@{
+    ViewBag.Title = "NoticiasForum";
+    
+
+}
+
+<h4>Postagem Recentes</h4>
+
+
+<table>
+
+@foreach (var item in Model) {
+    <tr>
+       
+        <td>
+            @Html.ActionLink(item.titulo, "Index", "forum")
+        </td>
+     
+      </tr>
+}
+
+</table>
