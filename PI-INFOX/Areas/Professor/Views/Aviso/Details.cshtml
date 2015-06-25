@@ -1,0 +1,61 @@
+﻿@model PI_INFOX.Models.Basicas.basAviso
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo @Session["nomeUsuarioLogado"].ToString() </h3>
+    </text>
+}
+<div>
+    <h4>Aviso</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AvisoID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvisoID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.messagemAviso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.messagemAviso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Disciplinas.nomeDisciplina)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disciplinas.nomeDisciplina)
+        </dd>
+        <dt>
+          @Html.ActionLink("Edita", "Edit", new {  id=Model.AvisoID }, new {@class="btn btn-info"}) 
+         @Html.ActionLink("Volta", "Index",null, new {@class="btn btn-info"})
+        </dt>
+    </dl>
+</div>

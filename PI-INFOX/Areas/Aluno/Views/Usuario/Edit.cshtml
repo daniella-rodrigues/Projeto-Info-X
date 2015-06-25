@@ -1,0 +1,112 @@
+﻿@model PI_INFOX.Models.Basicas.basUsuario
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo @Session["nomeUsuarioLogado"].ToString() ao Editar usuarios </h3>
+    </text>
+}
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Usuario</legend>
+
+  @*      <div class="editor-label">
+            @Html.LabelFor(model => model.login)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.login)
+            @Html.ValidationMessageFor(model => model.login)
+        </div>*@
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.senha)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.senha)
+            @Html.ValidationMessageFor(model => model.senha)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.lembreteSenha)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.lembreteSenha)
+            @Html.ValidationMessageFor(model => model.lembreteSenha)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.respostaSenha)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.respostaSenha)
+            @Html.ValidationMessageFor(model => model.respostaSenha)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.email)
+            @Html.ValidationMessageFor(model => model.email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.dataNascimento)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.dataNascimento)
+            @Html.ValidationMessageFor(model => model.dataNascimento)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.telefone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.telefone)
+            @Html.ValidationMessageFor(model => model.telefone)
+        </div>
+
+         @* <div class="editor-label">
+            @Html.LabelFor(model => model.matricula)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.matricula)
+            @Html.ValidationMessageFor(model => model.matricula)
+        </div>*@
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nome)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nome)
+            @Html.ValidationMessageFor(model => model.nome)
+        </div>
+
+      @*  <div class="editor-label">
+            @Html.LabelFor(model => model.DisciplinaID, "Disciplinas")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("DisciplinaID", String.Empty)
+            @Html.ValidationMessageFor(model => model.DisciplinaID)
+        </div>*@
+
+         <p>
+            <input type="submit" value="Salva" class="btn btn-success" />
+            @Html.ActionLink("Volta", "Index", null, new { @class = "btn btn-info" })
+        </p>
+    </fieldset>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

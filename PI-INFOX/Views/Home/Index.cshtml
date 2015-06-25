@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Bem Vindos ao Portal Info X </h3>
+<div class="pull-right-postagem">
+    @Html.Action("NoticiasForum", "Home", null)
+    <br />
+    @Html.Action("NoticiasVagas", "Home", null)
+    <br />
+    @Html.Action("NoticiasMaterial", "Home", null)
+    <br />
+</div>
+<div class="row-fluid1">
+    <div class="hero-unit">
+        @Html.Action("NoticiasAvisos", "Home", null)
+    </div>
+</div>
+
+
+
+

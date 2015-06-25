@@ -1,0 +1,53 @@
+﻿@model PI_INFOX.Models.Basicas.basAviso
+
+@{
+    ViewBag.Title = "Details";
+ 
+}
+<div>
+    <h4>Aviso</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AvisoID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvisoID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.messagemAviso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.messagemAviso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Disciplinas.nomeDisciplina)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disciplinas.nomeDisciplina)
+        </dd>
+        <dt>
+         @Html.ActionLink("Volta", "Index",null, new {@class="btn btn-info"})
+        </dt>
+    </dl>
+</div>

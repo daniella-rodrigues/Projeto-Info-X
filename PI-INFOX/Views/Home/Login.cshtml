@@ -1,0 +1,43 @@
+﻿@model PI_INFOX.Models.Basicas.basUsuario
+@{
+    ViewBag.Title = "InfoX - Login";
+}
+
+<h2>Faça o seu Login ou Cadastre-se.</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Usuario</legend>
+       
+        <tr>
+            <td>@Html.LabelFor(model => model.login) </td>
+            <td>@Html.TextBoxFor(model => model.login) </td>
+            <td>@Html.ValidationMessageFor(model => model.login)</td>
+        </tr>
+
+            <tr>
+                <td>@Html.LabelFor(model => model.senha)</td>
+                <td>@Html.PasswordFor(model => model.senha)</td>
+                <td>@Html.ValidationMessageFor(model => model.senha)</td>
+            </tr><br />
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login" />
+                </td>
+                <td></td>
+            </tr>
+        
+       </fieldset>
+}
+
+    
+        @Html.ActionLink("Cadastre-se","Create","usuario", new { @class = "btn btn-info" })
+    
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<PI_INFOX.Models.Basicas.basVaga_Estagio_Emprego>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo @Session["nomeUsuarioLogado"].ToString() </h3>
+    </text>
+}
+<table class="table">
+   
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VagaID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nomeVaga)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.cargo)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.horario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salario)
+        </th>
+    </tr>
+   
+   
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VagaID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nomeVaga)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cargo)
+                </td>
+                 <td>
+                    @Html.DisplayFor(modelItem => item.horario)
+                </td>
+                 <td>
+                    @Html.DisplayFor(modelItem => item.salario)
+                </td>
+                <td>
+                    @Html.ActionLink("Veja Mais aqui", "Details", new { id = item.VagaID }, new { @class = "btn btn-info" })
+                </td>
+            </tr>
+        }
+   
+</table>

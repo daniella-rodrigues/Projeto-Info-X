@@ -1,0 +1,45 @@
+﻿@model PI_INFOX.Models.Basicas.basDisciplina
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@if (Session["nomeUsuarioLogado"] != null)
+{
+    <text>
+       <h3> Bem Vindo ao Deletar @Session["nomeUsuarioLogado"].ToString() </h3>
+    </text>
+}
+<div>
+    <h3>Você deseja realmente deletar?</h3>
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DisciplinaID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DisciplinaID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nomeDisciplina)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nomeDisciplina)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            
+           @Html.ActionLink("Volta", "Index", null, new { @class = "btn btn-info" })
+        </div>
+    }
+</div>
